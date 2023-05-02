@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-top: 24px;
+    margin-left: 115px
+}
+
+#busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 305px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-top: 16px;
+    box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
+}
+
+#ButtonBusqueda{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+span{
+    margin-right: 90px;
+}
+
+#lupa{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #ff385c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#busqueda{
+    height: 46px;
+    width: 300px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 19px;
+}
+
+#first{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+#second{
+    height: 45px;
+    width: 80px;
+}
+
+#ButtonSecond{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    height: 100%;
+    width: 100%;
+}
+
