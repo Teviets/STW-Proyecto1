@@ -16,7 +16,7 @@ export default class Header extends React.Component{
                 </div>
                 <div id="busqueda">
                     <button id="ButtonBusqueda">
-                        <span>Empieza la búsqueda</span>
+                        <span id="spanBusqueda">Empieza la búsqueda</span>
                         <div id="lupa">
                             <img src={ lupa } height="16px" width="16px"/>
                         </div>
@@ -27,20 +27,16 @@ export default class Header extends React.Component{
                         <div id="agregar">
                             <span>Pon tu espacio en Airbnb</span>
                         </div>
-                        <div id="world">
-                            <button>
-                                <img src={world} />
+                        <div id="world" height="21px" width="21px" >
+                            <button id="worldButton">
+                                <img src={world} height="20px" width="20px"/>
                             </button>
                         </div>
                     </div>
                     <div id="second">
                         <button id="ButtonSecond">
-                            <div>
-                                <img src={option}/>
-                            </div>
-                            <div>
-                                <img src={login}/>
-                            </div>
+                            <img id="option" src={option} height="20px" width="20px"/>
+                            <img id="login" src={login} height="20px" width="20px"/>
                         </button>
                     </div>
                     
