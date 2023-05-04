@@ -27,8 +27,8 @@ export default class Header extends React.Component{
                         <div id="agregar">
                             <span>Pon tu espacio en Airbnb</span>
                         </div>
-                        <div id="world" height="21px" width="21px" >
-                            <button id="worldButton">
+                        <div id="world" >
+                            <button id="worldButton" height="20px" width="21px">
                                 <img src={world} height="20px" width="20px"/>
                             </button>
                         </div>
