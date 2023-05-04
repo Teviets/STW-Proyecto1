@@ -1,0 +1,16 @@
+#GlobalPubli{
+    display: flex;
+    flex-direction: row;
+    margin-left: 116px;
+    margin-right: 80px;
+}
+
+#principal{
+    height: 370px;
+    width: 563px;
+}
+
+.secundaria{
+    height: 185px;
+    width: 253px;
+}

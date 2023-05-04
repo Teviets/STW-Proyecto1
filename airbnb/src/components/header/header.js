@@ -10,13 +10,13 @@ import login from "../../assets/vectores/login.svg";
 export default class Header extends React.Component{
     render () {
         return (
-            <header>
+            <header id="miTitulo">
                 <div id="logo">
                     <img id="Airbnb" src={ logo } height="32px" width="100px" />
                 </div>
                 <div id="busqueda">
                     <button id="ButtonBusqueda">
-                        <span id="spanBusqueda">Empieza la búsqueda</span>
+                        <span className="spanHeader" id="spanBusqueda">Empieza la búsqueda</span>
                         <div id="lupa">
                             <img src={ lupa } height="16px" width="16px"/>
                         </div>
@@ -25,7 +25,7 @@ export default class Header extends React.Component{
                 <nav id="menu">
                     <div id="first">
                         <div id="agregar">
-                            <span>Pon tu espacio en Airbnb</span>
+                            <span className="spanHeader">Pon tu espacio en Airbnb</span>
                         </div>
                         <div id="world" >
                             <button id="worldButton" height="20px" width="21px">

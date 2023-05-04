@@ -1,51 +1,54 @@
 import React from "react";
+import "./Titulo.css";
 
 import Medalla from "../../assets/vectores/medalla.svg";
 import Estrella from "../../assets/vectores/estrella.svg";
+import Share from "../../assets/vectores/share.svg";
+import Corazon from "../../assets/vectores/corazon.svg";
 
 export default class Titulo extends React.Component{
     render () {
         return (
-            <header>
-                <div>
+            <header id="tituloAirbnb">
+                <div id="nombre">
                     <h1>Apartamento Minimalista, Cerca de zona 10 y 9.</h1>
                 </div>
-                <div>
-                    <div>
-                        <span>
+                <div id="subtitulo">
+                    <div id="Calificacion">
+                        <span className="calSpan">
                             <img src={Estrella} height="15px" width="15px"/>
                         </span>
-                        <span>4.88</span>
-                        <span>·</span>
-                        <span>
-                            <a>60 reseñas</a>
+                        <span className="calSpan">4.88</span>
+                        <span className="calSpan">·</span>
+                        <span className="calSpan">
+                            <button className="btnCalf">60 reseñas</button>
                         </span>
-                        <span>·</span>
-                        <span>
+                        <span className="calSpan">·</span>
+                        <span className="calSpan">
                             <img src={Medalla} height="15px" width="15px"/>
                         </span>
-                        <span>Superanfitrión</span>
-                        <span>·</span>
-                        <span>
-                            <a>Ciudad de Guatemala, Guatemala</a>
+                        <span className="calSpan">Superanfitrión</span>
+                        <span className="calSpan">·</span>
+                        <span className="calSpan">
+                            <button className="btnCalf">Ciudad de Guatemala, Guatemala</button>
                         </span>
                     </div>
-                    <div>
-                        <div>
-                            <span>
-                                <img/>
-                            </span>
-                            <span>
-                                <a>Compartir</a>
-                            </span>
+                    <div id="share">
+                        <div className="btnOptionsShare">
+                            <button className="btnShare">
+                                <span>
+                                    <img className="imgShare" src={Share} height="18px" width="18px"/>
+                                </span>
+                                Compartir
+                            </button>
                         </div>
-                        <div>
-                            <span>
-                                <img/>
-                            </span>
-                            <span>
-                                <a>Guardar</a>
-                            </span>
+                        <div className="btnOptionsShare">
+                            <button className="btnShare">
+                                <span>
+                                    <img className="imgShare" src={Corazon} height="18px" width="18px"/>
+                                </span>
+                                Guardar
+                            </button>
                         </div>
                     </div>
                 </div>

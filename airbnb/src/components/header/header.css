@@ -7,17 +7,15 @@ body{
     font-family: 'fontAirbnb';
 }
 
-header{
+#miTitulo{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
+    height: 80px;
 }
 
-button{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 #logo{
     margin-top: 24px;
@@ -94,7 +92,7 @@ nav{
     width: 190px;
 }
 
-span {
+.spanHeader {
     font-family: 'fontAirbnb';
     font-size: small;
     color: #6d6d6d;
@@ -160,8 +158,5 @@ span {
     margin-right: 13px;
 }
 
-header{
-    box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
-    height: 80px;
-}
+
 
