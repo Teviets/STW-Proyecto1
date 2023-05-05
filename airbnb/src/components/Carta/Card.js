@@ -7,7 +7,7 @@ import Estrella from "../../assets/vectores/estrella.svg";
 export default class Card extends React.Component {
   render() {
     return (
-      <div>
+      <div id='containerCard'>
         <div>
             <div>
                 <span>Q320 GTQ</span>
