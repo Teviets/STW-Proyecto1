@@ -2,9 +2,15 @@
     margin-left: 116px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between; 
 }
 
 
 #buttonAnfi{
     border: none;
+    background-color: transparent;
+}
+
+#divButtonAnfi{
+    margin-right: 89px;
 }

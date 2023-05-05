@@ -22,9 +22,9 @@ export default class Titulo extends React.Component{
                         <span className="calSpan">1 baño</span>
                     </div>
                 </div>
-                <div>
+                <div id="divButtonAnfi">
                     <button id="buttonAnfi">
-                        <img src={Anfitrion} alt="Anfitrion" />
+                        <img src={Anfitrion} alt="Anfitrion" height="70px" width="80px"/>
                     </button>
                 </div>
             </div>
