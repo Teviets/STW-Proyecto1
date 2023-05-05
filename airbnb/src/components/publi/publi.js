@@ -8,6 +8,10 @@ import Secundaria3 from "../../assets/img/Secundaria3.png";
 import Secundaria4 from "../../assets/img/Secundaria4.png";
 
 export default class Publi extends React.Component{
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
             <div id="GlobalPubli">

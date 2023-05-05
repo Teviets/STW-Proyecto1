@@ -2,7 +2,8 @@
     margin-left: 116px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    border-bottom: 1px solid #dddd;
+    height: 100px;
 }
 
 

@@ -8,6 +8,9 @@ import option from "../../assets/vectores/opciones.svg";
 import login from "../../assets/vectores/login.svg";
 
 export default class Header extends React.Component{
+    constructor(props) {
+        super(props);
+    }
     render () {
         return (
             <header id="miTitulo">

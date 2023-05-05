@@ -7,6 +7,10 @@ import Share from "../../assets/vectores/share.svg";
 import Corazon from "../../assets/vectores/corazon.svg";
 
 export default class Titulo extends React.Component{
+    constructor(props) {
+        super(props);
+    }
+
     render () {
         return (
             <header id="tituloAirbnb">
