@@ -8,9 +8,22 @@
 #principal{
     height: 370px;
     width: 563px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#laPrincipal{
+    margin-right: 8px;
 }
 
 .secundaria{
     height: 185px;
-    width: 253px;
+    width: 291.5px;
+}
+
+#arriba{
+    border-top-right-radius: 10px;
+}
+
+#abajo{
+    border-bottom-right-radius: 10px;
 }

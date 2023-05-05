@@ -1,0 +1,10 @@
+#descricionContainer{
+    margin-left: 116px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#buttonAnfi{
+    border: none;
+}

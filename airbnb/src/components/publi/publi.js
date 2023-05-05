@@ -19,8 +19,8 @@ export default class Publi extends React.Component{
                     <img className="secundaria" src={Secundaria3}/>
                 </div>
                 <div id="secundarias2">
-                    <img className="secundaria" src={Secundaria2}/>
-                    <img className="secundaria" src={Secundaria4}/>
+                    <img className="secundaria" id="arriba" src={Secundaria2}/>
+                    <img className="secundaria" id="abajo" src={Secundaria4}/>
                 </div>
             </div>
         )
