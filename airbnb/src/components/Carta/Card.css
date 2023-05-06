@@ -9,7 +9,7 @@
     box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
     border-radius: 10px;
     width: 370px;
-    height: 330px;
+    height: 276px;
 }
 
 #calificacionPrecio{
@@ -36,6 +36,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-right: 100px;
+    margin-top: 25px;
 }
 
 #banderaDenuncia{
@@ -96,4 +98,23 @@
 
 .titButton{
     font-size: 12px;
+}
+
+#reservar{
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#buttonReserv{
+    height: 100%;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, #e8204e, #d30964);
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
 }

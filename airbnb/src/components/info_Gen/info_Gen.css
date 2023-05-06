@@ -1,0 +1,45 @@
+#containerInfoGen{
+    margin-left: 118px;
+    margin-right: 90px;
+    height: 305px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#work{
+    display: flex;
+    flex-direction: row;
+}
+
+#llegada{
+    display: flex;
+    flex-direction: row;
+}
+
+#anfitrionAlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.descripInfoGen{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgDescrip{
+    margin-right: 20px;
+}
+
+.titInfoGen{
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.desInfoGen{
+    font-size: 13px;
+    color: #717888;
+    margin-top: 14px;
+}
+
+.iconosInfoGen{
+    margin-top: 35px;
+}

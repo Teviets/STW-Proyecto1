@@ -1,38 +1,44 @@
 import React from "react";
 
-export default class Titulo extends React.Component{
+import "./info_Gen.css";
+
+import Trabajo from "../../assets/vectores/trabajo.svg";
+import Puerta from "../../assets/vectores/puerta.svg";
+import Medalla from "../../assets/vectores/superanfitrion.svg"
+
+export default class info_Gen extends React.Component{
     constructor(props) {
         super(props);
     }
 
     render () {
         return (
-            <div>
+            <div id="containerInfoGen">
                 <div id="work">
-                    <div>
-                        <img/>
+                    <div className="imgDescrip">
+                        <img src={Trabajo} height="30px" width="30px" className="iconosInfoGen"/>
                     </div>
-                    <div>
-                        <span>Zona de trabajo</span>
-                        <span>Una habitación con wifi que es ideal para trabajar.</span>
+                    <div className="descripInfoGen">
+                        <span className="titInfoGen">Zona de trabajo</span>
+                        <span className="desInfoGen">Una habitación con wifi que es ideal para trabajar.</span>
                     </div>
                 </div>
                 <div id="llegada">
-                    <div>
-                        <img/>
+                    <div className="imgDescrip">
+                        <img src={Puerta} height="30px" width="30px" className="iconosInfoGen"/>
                     </div>
-                    <div>
-                        <span>Llegada autónoma</span>
-                        <span>Realiza la llegada fácilmente mediante la cerradura con teclado.</span>
+                    <div className="descripInfoGen">
+                        <span className="titInfoGen">Llegada autónoma</span>
+                        <span className="desInfoGen">Realiza la llegada fácilmente mediante la cerradura con teclado.</span>
                     </div>
                 </div>
-                <div id="alex">
-                    <div>
-                        <img/>
+                <div id="anfitrionAlex">
+                    <div className="imgDescrip">
+                        <img src={Medalla} height="30px" width="30px" className="iconosInfoGen"/>
                     </div>
-                    <div>
-                        <span>Alex tiene la categoría de Superanfitrión</span>
-                        <span>Los Superanfitriones tienen mucha experiencia, cuentan con valoraciones excelentes y se esfuerzan al máximo para ofrecerles a los huéspedes estadías maravillosas.</span>
+                    <div className="descripInfoGen">
+                        <span className="titInfoGen">Alex tiene la categoría de Superanfitrión</span>
+                        <span className="desInfoGen">Los Superanfitriones tienen mucha experiencia, cuentan con valoraciones excelentes y se esfuerzan al máximo para ofrecerles a los huéspedes estadías maravillosas.</span>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 #descricionContainer{
     margin-left: 116px;
+    margin-right: 90px;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #dddd;

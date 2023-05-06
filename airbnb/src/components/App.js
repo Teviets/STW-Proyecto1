@@ -6,6 +6,9 @@ import Titulo from "./titulo/Titulo.js";
 import Publi from "./publi/Publi.js";
 import Descripcion from "./descripcion/descripcion.js";
 import Card from "./Carta/Card.js";
+import Info_Gen from "./info_Gen/info_Gen.js";
+import Aircover from "./aircover/aircover.js";
+
 
 // export default class Header extends React.Component
 export default class App extends React.Component {
@@ -16,8 +19,14 @@ export default class App extends React.Component {
         <Titulo/>
         <Publi/>
         <div id='descripYCard'>
-          <Descripcion/>
-          <Card/>
+          <div>
+            <Descripcion/>
+            <Info_Gen/>
+            <Aircover/>
+          </div>
+          <div className='scroll-card'>
+            <Card/>
+          </div>
         </div>
       </div>
     );

@@ -1,7 +1,5 @@
 import React from "react";
 
-import info_Gen from "../info_Gen/info_Gen.js";
-
 import "./descripcion.css";
 
 import Anfitrion from "../../assets/img/anfi.webp";
@@ -35,7 +33,6 @@ export default class descripcion extends React.Component{
                         </button>
                     </div>
                 </div>
-                <info_Gen/>
             </div>
         )
     }

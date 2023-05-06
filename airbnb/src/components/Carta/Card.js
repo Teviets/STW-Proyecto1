@@ -50,13 +50,16 @@ export default class Card extends React.Component {
               <img  id="downUp" src={Down} height="20px" width="20px" />
             </button>
           </div>
+          <div id='reservar'>
+            <button id='buttonReserv'>Comprobar disponibilidad</button>
+          </div>
         </div>
         <div id='denuncia'>
           <div id='banderaDenuncia'>
             <img src={Bandera} height="14px" width="14px"/>
           </div>
           <div>
-            <span>Denuncia este anuncio</span>
+            <span id>Denuncia este anuncio</span>
           </div>
         </div>
       </div>
