@@ -1,0 +1,33 @@
+#CuartoContainer{
+    margin-left: 116px;
+    margin-right: 90px;
+    margin-top: 38px;
+    border-bottom: 1px solid #dddddd;
+    height: 370px;
+}
+
+#buttonCuarto{
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+#imgCamaCuarto{
+    width: 325px;
+    height:215px;
+    border-radius: 10px;
+}
+
+#camaImage{
+    width: 100%;
+    height:100%;
+}
+
+.buttonCamaText{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#titButtonCamaText{
+    font-size: 20px;
+}

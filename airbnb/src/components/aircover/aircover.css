@@ -2,11 +2,11 @@
     margin-left: 116px;
     margin-right: 90px;
     font-size: 15px;
-    border: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
     height: 185px;
 }
 
-#buttonMoreInfoAir{
+.buttonMore{
     border: none;
     background-color: transparent;
     text-decoration: underline;

@@ -15,7 +15,7 @@ export default class aircover extends React.Component {
         <div>
             Todas las reservaciones incluyen protección gratuita en caso de que el anfitrión cancele, de que haya imprecisiones en el anuncio o de que surjan otros inconvenientes, como problemas al momento de hacer el check-in. 
         </div>
-        <button id='buttonMoreInfoAir'>Mas información</button>
+        <button className='buttonMore'>Mas información</button>
       </div>
     );
   }

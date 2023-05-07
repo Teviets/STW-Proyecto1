@@ -1,0 +1,44 @@
+#ServiciosContainer{
+    margin-left: 116px;
+    margin-right: 90px;
+    margin-top: 38px;
+    border-bottom: 1px solid #dddddd;
+    height: 440px;
+}
+
+.iconoSev{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#servContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+
+.include{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#divButtonServ{
+    margin-top: 45px;
+}
+
+#buttonService{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 225px;
+    font-size: 18px;
+}
+
+#buttonService:hover{
+    background-color: #f7f7f7;
+}
