@@ -13,6 +13,7 @@ import Cuarto from "./cuarto/Cuarto.js";
 import Servicios from "./servicios/Servicios.js";
 import Calendario from "./Calendario/Calendario.js";
 import Reseñas from "./reseñas/reseñas.js";
+import Ubicacion from "./ubicacion/ubicacion.js";
 
 
 // export default class Header extends React.Component
@@ -39,7 +40,7 @@ export default class App extends React.Component {
           
         </div>
         <Reseñas/>
-        
+        <Ubicacion/>
     
       </div>
     );
