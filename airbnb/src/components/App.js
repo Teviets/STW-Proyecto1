@@ -11,6 +11,8 @@ import Aircover from "./aircover/aircover.js";
 import Info from "./info/Info.js";
 import Cuarto from "./cuarto/Cuarto.js";
 import Servicios from "./servicios/Servicios.js";
+import Calendario from "./Calendario/Calendario.js";
+import Reseñas from "./reseñas/reseñas.js";
 
 
 // export default class Header extends React.Component
@@ -29,11 +31,16 @@ export default class App extends React.Component {
             <Info/>
             <Cuarto/>
             <Servicios/>
+            <Calendario/>
           </div>
           <div className='scroll-card'>
             <Card/>
           </div>
+          
         </div>
+        <Reseñas/>
+        
+    
       </div>
     );
   }

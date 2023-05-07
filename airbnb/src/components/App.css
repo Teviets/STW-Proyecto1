@@ -1,11 +1,20 @@
+.App{
+    display: flex;
+    flex-direction: column;
+}
+
 #descripYCard{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 600px;
+    height: auto;
 }
 
 .scroll-card{
+    height: auto;
+    width: 370px;
     position: sticky;
     top: 110px;
+    margin-right: 90px;
 }
+
