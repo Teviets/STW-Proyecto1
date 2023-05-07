@@ -1,0 +1,66 @@
+#containerAnfitrion{
+    margin-right: 90px;
+    margin-left: 118px;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 35px;
+}
+
+#titAnfi{
+    display: flex;
+    flex-direction: row;
+}
+
+#titAnfiText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contenedorCalAnf{
+    display: flex;
+    flex-direction: row;
+}
+
+#divGridCalAnf{
+    display: grid;
+    grid-template-columns: auto auto; 
+    margin-bottom: 15px;
+}
+
+#contactoAnfi{
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    height: 45px;
+    width: 212px;
+    background-color: transparent;
+}
+
+#contactoAnfi:hover{
+    background-color: #f7f7f7;
+}
+
+#segundoContenidoAnfi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconoAnfi{
+    margin-right: 10px;
+}
+
+#anfiFinal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#textoFinalAnfi{
+    font-size: 12px;
+}
+
+.textoGeneralAnfi{
+    font-size: 14px;
+}

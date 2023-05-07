@@ -30,7 +30,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -69,6 +68,7 @@
     border: 1px solid black;
     height: 45px;
     width: 212px;
+    background-color: transparent;
 }
 
 #buttonMostrarReviews:hover{
