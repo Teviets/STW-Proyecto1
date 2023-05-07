@@ -17,7 +17,8 @@ import Ubicacion from "./ubicacion/ubicacion.js";
 import Anfitrion from "./anfitrion/anfitrion.js";
 import Saber from "./saber/Saber.js";
 import OtraOpcion from "./otrasOpciones/otrasOpciones.js";
-import Generalidades from "./Generalidades/generalidades.js"
+import Generalidades from "./Generalidades/generalidades.js";
+import Footer from "./footer/footer.js";
 
 // export default class Header extends React.Component
 export default class App extends React.Component {
@@ -48,6 +49,7 @@ export default class App extends React.Component {
         <Saber/>
         <OtraOpcion/>
         <Generalidades/>
+        <Footer/>
       </div>
     );
   }
