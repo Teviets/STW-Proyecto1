@@ -15,6 +15,7 @@ import Calendario from "./Calendario/Calendario.js";
 import Reseñas from "./reseñas/reseñas.js";
 import Ubicacion from "./ubicacion/ubicacion.js";
 import Anfitrion from "./anfitrion/anfitrion.js";
+import Saber from "./saber/Saber.js";
 
 
 // export default class Header extends React.Component
@@ -43,6 +44,7 @@ export default class App extends React.Component {
         <Reseñas/>
         <Ubicacion/>
         <Anfitrion/>
+        <Saber/>
       </div>
     );
   }
