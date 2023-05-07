@@ -1,0 +1,36 @@
+#otrasOpcionesContainer{
+    border-top: 1px solid #dddddd;
+    height: 240px;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    height: 240px;
+    background-color: #f7f7f7;
+}
+
+#gridOtrasOpciones{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.otraOpcion{
+    font-size: 15px;
+    color: #717171;
+}
+
+.linksOtrasOpciones{
+    font-size: 14px;
+    color: #717171;
+}
+
+.linksOtrasOpciones:hover{
+    text-decoration: underline;
+    color: #717171;
+}
+
+#margenGen{
+    margin-right: 90px;
+    margin-left: 118px;
+}

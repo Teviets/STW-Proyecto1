@@ -1,0 +1,26 @@
+#conteinerGeneralidades{
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    height: 240px;
+    background-color: #f7f7f7;
+    
+}
+
+.generalidadEnsi{
+    font-size: 13px;
+    margin-top: 15px;
+    color: #222222;
+}
+
+.generalidadEnsi:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#margenGeneralidades{
+    margin-right: 90px;
+    margin-left: 118px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+}
