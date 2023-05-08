@@ -1,5 +1,6 @@
 
-![Descripción de la imagen](./airbnb/src/assets/img/logo.png){: style="max-width: 400px; height: auto;"}
+<img src="./airbnb/src/assets/img/logo.png" alt="Descripción de la imagen" style="max-width: 400px; height: auto;"/>
+
 
 # STW-Proyecto1
 Imitacion de pagina principal de Airbnb
