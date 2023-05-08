@@ -3,7 +3,32 @@
 </p>
 
 # STW-Proyecto1
-Imitacion de pagina principal de Airbnb
+
+## Introduccion
+
+Este es el primer proyecto de la clase de Sistemas y tecnologias Web de la universidad del valle de Guatemala, este proyecto consiste en realizar una copia de una pagina web conocida a elección de cada persona, en mi caso escogi el perfil de un apartamento en Airbnb.
+
+## Feautures
+
+<ul>
+    <li>
+        <img src="./airbnb/src/assets/img/react.png" style= ""/> React
+    </li>
+    <li>
+        <img src="./airbnb/src/assets/vectores/styles.svg" style= ""/> CSS, SCSS
+    </li>
+    <li>
+        <img src="./airbnb/src/assets/img/webpack.png" style= ""/> Webpack
+    </li>
+    <li>
+        <img src="./airbnb/src/assets/img/babel.png" style= ""/> Babel
+    </li>
+    <li>
+        <img src="./airbnb/src/assets/img/mui.png" style= ""/> Material UI
+    </li>
+<ul>
+
+## Especificaciones de la página
 
 Fecha en la que se copio: 01/05/202
 
