@@ -12,16 +12,16 @@ Este es el primer proyecto de la clase de Sistemas y tecnologias Web de la unive
 
 <ul>
     <li>
-        <img src="./airbnb/src/assets/img/react.png" style= ""/> React
+        <img src="./airbnb/src/assets/img/react.png" style= "width: 30px; height: auto;"/> React
     </li>
     <li>
-        <img src="./airbnb/src/assets/vectores/styles.svg" style= ""/> CSS, SCSS
+        <img src="./airbnb/src/assets/vectores/styles.svg" style= "width: 30px; height: auto;"/> CSS, SCSS
     </li>
     <li>
-        <img src="./airbnb/src/assets/img/webpack.png" style= ""/> Webpack
+        <img src="./airbnb/src/assets/img/webpack.png" style= "width: 30px; height: auto;"/> Webpack
     </li>
     <li>
-        <img src="./airbnb/src/assets/img/babel.png" style= ""/> Babel
+        <img src="./airbnb/src/assets/img/babel.png" style= "width: 30px; height: auto;"/> Babel
     </li>
     <li>
         <img src="./airbnb/src/assets/img/mui.png" style= ""/> Material UI
