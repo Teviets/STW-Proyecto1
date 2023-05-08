@@ -28,6 +28,21 @@ Este es el primer proyecto de la clase de Sistemas y tecnologias Web de la unive
     </li>
 <ul>
 
+## Getting started
+
+1. Clonar el repositorio `https://github.com/Teviets/STW-Proyecto1`
+2. Moverse a la carpeta airbnb desde la terminal: `cd airbnb`.<br />
+3. Correr `yarn` o `npm install` desde la terminal. Para instalar las dependencias.<br />
+4. Correr `npm start webpack` para ver el ejemplo de la aplicacion `http://localhost:3000/`.<br />
+
+## Commands
+
+- `npm run start` - Comienzo de react scripts
+- `npm run build` - Crea el folder `public` para la app de react
+- `npm run test` - Corre los test de react scripts
+- `npm run eject` - Corre los ejects de React scripts
+- `npm run webpack` - Corre el webpack en modo Watch
+
 ## Especificaciones de la página
 
 Fecha en la que se copio: 01/05/202
