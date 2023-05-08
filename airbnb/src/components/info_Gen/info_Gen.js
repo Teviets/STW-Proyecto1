@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./info_Gen.css";
+import "./info_Gen.scss";
 
 import Trabajo from "../../assets/vectores/trabajo.svg";
 import Puerta from "../../assets/vectores/puerta.svg";

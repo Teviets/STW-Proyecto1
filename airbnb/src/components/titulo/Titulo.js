@@ -1,5 +1,5 @@
 import React from "react";
-import "./Titulo.css";
+import "./Titulo.scss";
 
 import Medalla from "../../assets/vectores/medalla.svg";
 import Estrella from "../../assets/vectores/estrella.svg";

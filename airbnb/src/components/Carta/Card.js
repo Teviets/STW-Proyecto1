@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./Card.css";
+import "./Card.scss";
 
 import Estrella from "../../assets/vectores/estrella.svg";
 import Bandera from "../../assets/vectores/bandera.svg";

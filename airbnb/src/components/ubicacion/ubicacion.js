@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import "./ubicacion.css";
+import "./ubicacion.scss";
 
 export default class ubicacion extends Component {
   render() {

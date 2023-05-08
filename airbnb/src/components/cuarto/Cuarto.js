@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Cuarto.css';
+import './Cuarto.scss';
 
 import Cama from  "../../assets/img/Cuarto.webp"
 

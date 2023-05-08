@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './aircover.css';
+import './aircover.scss';
 
 import airCover from "../../assets/img/aircover.webp"
 

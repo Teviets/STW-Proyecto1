@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "./saber.css";
+import "./saber.scss";
 
 export default class Saber extends Component {
   render() {

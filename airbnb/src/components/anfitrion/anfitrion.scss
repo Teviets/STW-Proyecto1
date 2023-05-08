@@ -1,67 +1,67 @@
-#containerAnfitrion{
+#containerAnfitrion {
     margin-right: 90px;
     margin-left: 118px;
     border-bottom: 1px solid #dddddd;
     margin-top: 35px;
     height: 280px;
-}
-
-#titAnfi{
+  }
+  
+  #titAnfi {
     display: flex;
     flex-direction: row;
-}
-
-#titAnfiText{
+  }
+  
+  #titAnfiText {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-#contenedorCalAnf{
+  }
+  
+  #contenedorCalAnf {
     display: flex;
     flex-direction: row;
-}
-
-#divGridCalAnf{
+  }
+  
+  #divGridCalAnf {
     display: grid;
-    grid-template-columns: auto auto; 
+    grid-template-columns: auto auto;
     margin-bottom: 15px;
-}
-
-#contactoAnfi{
+  }
+  
+  #contactoAnfi {
     border-radius: 10px;
     font-size: 17px;
     border: 1px solid black;
     height: 45px;
     width: 212px;
     background-color: transparent;
-}
-
-#contactoAnfi:hover{
-    background-color: #f7f7f7;
-}
-
-#segundoContenidoAnfi{
+  
+    &:hover {
+      background-color: #f7f7f7;
+    }
+  }
+  
+  #segundoContenidoAnfi {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.iconoAnfi{
+  }
+  
+  .iconoAnfi {
     margin-right: 10px;
-}
-
-#anfiFinal{
+  }
+  
+  #anfiFinal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-}
-
-#textoFinalAnfi{
+  }
+  
+  #textoFinalAnfi {
     font-size: 12px;
-}
-
-.textoGeneralAnfi{
+  }
+  
+  .textoGeneralAnfi {
     font-size: 14px;
-}
+  }
+  

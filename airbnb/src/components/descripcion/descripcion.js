@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./descripcion.css";
+import "./descripcion.scss";
 
 import Anfitrion from "../../assets/img/anfi.webp";
 

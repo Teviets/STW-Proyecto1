@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './info.css';
+import './info.scss';
 
 
 export default class Info extends React.Component {

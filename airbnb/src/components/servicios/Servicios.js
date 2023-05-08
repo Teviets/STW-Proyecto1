@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Servicios.css';
+import './Servicios.scss';
 
 import Ascensor from "../../assets/vectores/ascensor.svg";
 import Carro from "../../assets/vectores/carro.svg";

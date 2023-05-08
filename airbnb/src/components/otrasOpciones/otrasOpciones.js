@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "./otrasOpciones.css";
+import "./otrasOpciones.scss";
 
 import Flecha from "../../assets/vectores/flechaDerecha.svg";
 

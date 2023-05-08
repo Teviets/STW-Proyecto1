@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import "./generalidades.css";
+import "./generalidades.scss";
 
 export default class generalidades extends Component {
   render() {

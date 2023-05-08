@@ -1,24 +1,25 @@
-#conteinerFooter{
+#conteinerFooter {
     width: 100%;
     background-color: #f7f7f7;
-}
-
-#footerfoo{
+  }
+  
+  #footerfoo {
     margin-right: 90px;
     margin-left: 118px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
-}
-
-.footerText{
+  }
+  
+  .footerText {
     font-size: 13px;
     color: #222222;
     margin-right: 5px;
-}
-
-.footerText:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
+  
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  

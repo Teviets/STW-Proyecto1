@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'fontAirbnb';
+    src: url('../../assets/fonts/Airbnb.otf') format("truetype");
+}
+
+body {
+  font-family: 'fontAirbnb';
+}
+
+#tituloAirbnb {
+  display: flex;
+  height: 110px;
+  flex-direction: column;
+  margin-left: 115px;
+  margin-top: 7px;
+}
+
+#nombre {
+  font-size: 13px;
+  margin-bottom: -10px;
+}
+
+#share {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+}
+
+.btnShare {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'fontAirbnb';
+  text-decoration: underline;
+}
+
+#subtitulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+#share {
+  margin-left: 115px;
+  margin-right: 114px;
+}
+
+.btnOptionsShare {
+  height: 40px;
+  width: 100px;
+
+  &:hover {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+}
+
+#Calificacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calSpan {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #717171;
+}
+
+.imgShare {
+  margin-right: 10px;
+}
+
+.btnCalf {
+  border: none;
+  background-color: transparent;
+  font-family: 'fontAirbnb';
+  text-decoration: underline;
+  width: 100%;
+}

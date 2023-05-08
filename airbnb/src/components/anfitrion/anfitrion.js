@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "./anfitrion.css";
+import "./anfitrion.scss";
 
 import Estrella from "../../assets/vectores/estrella.svg";
 import Escudo from "../../assets/vectores/escudo.svg";

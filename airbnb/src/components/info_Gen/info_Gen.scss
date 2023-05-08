@@ -1,45 +1,36 @@
-#containerInfoGen{
+#containerInfoGen {
     margin-left: 118px;
     margin-right: 90px;
     height: 305px;
     border-bottom: 1px solid #dddddd;
-}
-
-#work{
+  }
+  
+  #work, #llegada, #anfitrionAlex {
     display: flex;
     flex-direction: row;
-}
-
-#llegada{
-    display: flex;
-    flex-direction: row;
-}
-
-#anfitrionAlex{
-    display: flex;
-    flex-direction: row;
-}
-
-.descripInfoGen{
+  }
+  
+  .descripInfoGen {
     display: flex;
     flex-direction: column;
-}
-
-.imgDescrip{
+  }
+  
+  .imgDescrip {
     margin-right: 20px;
-}
-
-.titInfoGen{
+  }
+  
+  .titInfoGen {
     font-size: 15px;
     margin-top: 35px;
-}
-
-.desInfoGen{
+  }
+  
+  .desInfoGen {
     font-size: 13px;
     color: #717888;
     margin-top: 14px;
-}
-
-.iconosInfoGen{
+  }
+  
+  .iconosInfoGen {
     margin-top: 35px;
-}
+  }
+  

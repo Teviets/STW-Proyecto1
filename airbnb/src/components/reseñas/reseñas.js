@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import LinearProgress from '@mui/material/LinearProgress';
 import ReseñaIndividual from "../reseñaIndividual/reseñaIndividual.js"
 
-import "./reseñas.css";
+import "./reseñas.scss";
 
 import Gabriela from "../../assets/img/perfilGabriela.webp";
 import Alexandre from "../../assets/img/perfilAlexandre.webp";

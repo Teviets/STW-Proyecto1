@@ -1,5 +1,5 @@
 import React from "react";
-import "./publi.css";
+import "./publi.scss";
 
 import Principal from "../../assets/img/Principal.png";
 import Secundaria1 from "../../assets/img/Secundaria1.png";

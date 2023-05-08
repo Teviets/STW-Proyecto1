@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "./footer.css";
+import "./footer.scss";
 
 import World from "../../assets/vectores/world.svg";
 import Facebook from "../../assets/vectores/facebook.svg";

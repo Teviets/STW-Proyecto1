@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./reseñaIndividual.css";
+import "./reseñaIndividual.scss";
 
 export default class reseñaIndividual extends Component {
     constructor(props) {

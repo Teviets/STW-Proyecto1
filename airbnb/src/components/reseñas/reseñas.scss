@@ -1,13 +1,13 @@
-#ContainerReseñas{
+#ContainerReseñas {
     margin-right: 90px;
     margin-left: 118px;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
-    clear:both;
+    clear: both;
     height: 860px;
-}
-
-.caliReseña{
+  }
+  
+  .caliReseña {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,60 +17,59 @@
     margin-right: 25px;
   }
   
-#GlobalCalRes {
+  #GlobalCalRes {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-
-}
+  }
   
-.calificacionReseña{
+  .calificacionReseña {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.progresCalDiv{
+  }
+  
+  .progresCalDiv {
     display: flex;
     flex-direction: row;
-}
-
-.progressbar{
+  }
+  
+  .progressbar {
     width: 160px;
     height: 10px;
     border-radius: 5px;
     position: relative;
     top: 50%;
     margin-right: 10px;
-}
-
-.MuiLinearProgress-colorPrimary{
-    background-color: #000000;
-}
-
-.progressbar .MuiLinearProgress-colorPrimary {
-    background-color: black;
-}
+  }
   
-
-#comentariosReseñas{
+  .MuiLinearProgress-colorPrimary {
+    background-color: #000000;
+  }
+  
+  .progressbar .MuiLinearProgress-colorPrimary {
+    background-color: black;
+  }
+  
+  #comentariosReseñas {
     display: grid;
     grid-template-columns: auto auto;
-}
-
-#buttonMostrarReviews{
+  }
+  
+  #buttonMostrarReviews {
     border-radius: 10px;
     font-size: 17px;
     border: 1px solid black;
     height: 45px;
     width: 212px;
     background-color: transparent;
-}
-
-#buttonMostrarReviews:hover{
-    background-color: #f7f7f7;
-}
+  
+    &:hover {
+      background-color: #f7f7f7;
+    }
+  }
+  
