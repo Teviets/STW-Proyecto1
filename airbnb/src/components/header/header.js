@@ -2,22 +2,40 @@ import React from "react";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import Grow from "@mui/material/Grow";
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 
 import logo from "../../assets/img/logo.png";
 import lupa from "../../assets/vectores/lupa.svg";
 import world from "../../assets/vectores/world.svg";
 import option from "../../assets/vectores/opciones.svg";
 import login from "../../assets/vectores/login.svg";
-import "./Header.css";
+import "./Header.scss";
 
 const style = {
-  position: "absolute",
-  top: "0%",
-  left: "0%",
-  width: "100%",
-  height: "160px",
-  backgroundColor: "#ffffff",
+    position: "absolute",
+    top: "0%",
+    left: "0%",
+    width: "100%",
+    height: "190px",
+    backgroundColor: "#ffffff",
 };
+
+const styleButton = {
+    backgroundColor: "#f7f7f7",
+    color: "#000000",
+    border: "none",
+    borderRadius: "30px",
+    padding: '12px 24px',
+    "&.Mui-selected": {
+        backgroundColor: "#B8E4B4",
+    },
+}
+
+const styleButtonGroup={
+    backgroundColor: "#f7f7f7",
+    borderRadius: "30px"
+}
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -42,22 +60,22 @@ export default class Header extends React.Component {
 
   render() {
     const buttons = [
-        {
-          name: "estadias",
-          content: <div>Contenido de Estadias</div>,
-          active: this.state.activeButton === "estadias",
-        },
-        {
-          name: "experiencias",
-          content: <div>Contenido de Experiencias</div>,
-          active: this.state.activeButton === "experiencias",
-        },
-        {
-          name: "enLinea",
-          content: <div>Contenido de Experiencias en Línea</div>,
-          active: this.state.activeButton === "enLinea",
-        },
-      ];
+            {
+            name: "estadias",
+            content: <div className="botongroup"><ButtonGroup style={styleButtonGroup} variant="contained" aria-label="outlined primary button group"><Button style={styleButton}>Dónde</Button><Button style={styleButton}>Llegada</Button><Button style={styleButton}>Salida</Button><Button style={styleButton}>Quien <div id="lupa"><img src={lupa} height="16px" width="16px" alt="lupa" /></div></Button></ButtonGroup></div>,
+            active: this.state.activeButton === "estadias",
+            },
+            {
+            name: "experiencias",
+            content: <div className="botongroup"><ButtonGroup style={styleButtonGroup} variant="contained" aria-label="outlined primary button group"><Button style={styleButton}>Dónde</Button><Button style={styleButton}>Fecha</Button><Button style={styleButton}>Quien <div id="lupa"><img src={lupa} height="16px" width="16px" alt="lupa" /></div></Button></ButtonGroup></div>,
+            active: this.state.activeButton === "experiencias",
+            },
+            {
+            name: "enLinea",
+            content: <div className="botongroup">Contenido de Experiencias en Línea</div>,
+            active: this.state.activeButton === "enLinea",
+            },
+        ];
     return (
         <header id="miTitulo">
             <div id="logo">

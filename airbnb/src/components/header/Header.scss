@@ -1,28 +1,26 @@
 @font-face {
     font-family: 'fontAirbnb';
-    src: url('../../assets/fonts/Airbnb.otf') format('truetype'); 
-}
+    src: url('../../assets/fonts/Airbnb.otf') format("truetype");
+  }
   
-body{
+  body {
     font-family: 'fontAirbnb';
-}
-
-#miTitulo{
+  }
+  
+  #miTitulo {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
-    box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
+    justify-content: space-between;
+    box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.5);
     height: 80px;
-}
-
-
-
-#logo{
+  }
+  
+  #logo {
     margin-top: 24px;
-    margin-left: 115px
-}
-
-#busqueda{
+    margin-left: 115px;
+  }
+  
+  #busqueda {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,15 +30,15 @@ body{
     background-color: #ffffff;
     border-radius: 50px;
     margin-top: 16px;
-    box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.5);
     margin-left: 100px;
-}
-
-#busqueda:hover{
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
-
-#ButtonBusqueda{
+  
+    &:hover {
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  #ButtonBusqueda {
     height: 50px;
     width: 100%;
     background-color: transparent;
@@ -49,9 +47,9 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 16px;
-}
-
-#lupa{
+  }
+  
+  #lupa {
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -60,91 +58,90 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 105px;
-}
-
-#busqueda{
+  }
+  
+  #busqueda {
     height: 46px;
     width: 300px;
     font-family: 'fontAirbnb';
-}
-
-nav{
+  }
+  
+  nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-top: 19px;
     margin-right: 114px;
-}
-
-#agregar {
+  }
+  
+  #agregar {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 35px;
     width: 190px;
-}
-
-#agregar:hover {
-    background-color: #f7f7f7;
-    border-radius: 50px;
-    height: 35px;
-    width: 190px;
-}
-
-.spanHeader {
+  
+    &:hover {
+      background-color: #f7f7f7;
+      border-radius: 50px;
+      height: 35px;
+      width: 190px;
+    }
+  }
+  
+  .spanHeader {
     font-family: 'fontAirbnb';
     font-size: small;
     color: #6d6d6d;
-}
-
-#first {
+  }
+  
+  #first {
     margin-top: 5px;
     display: flex;
     flex-direction: row;
     font-family: 'fontAirbnb';
     margin-right: 10px;
-}
-
-#world{
+  }
+  
+  #world {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 40px;
     width: 40px;
-    
-}
-
-#worldButton{
+  }
+  
+  #worldButton {
     border: none;
     background-color: transparent;
-}
-
-#world:hover{
+  }
+  
+  #world:hover {
     background-color: #f7f7f7;
     border-radius: 50%;
-}
-
-#second{
+  }
+  
+  #second {
     height: 45px;
     width: 80px;
-    box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.5);
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#second:hover{
-    border-radius: 50px;
-    box-shadow: 0px 1px 1.5px rgba(0,0,0,1.2);
-}
-
-#ButtonSecond{
+  
+    &:hover {
+      border-radius: 50px;
+      box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 1.2);
+    }
+  }
+  
+  #ButtonSecond {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     height: 100%;
     width: 100%;
     font-family: 'fontAirbnb';
@@ -152,85 +149,88 @@ nav{
     background-color: transparent;
     align-items: center;
     justify-content: center;
-}
-
-#option{
+  }
+  
+  #option {
     margin-right: 13px;
-}
-
-
-#modalNavUp{
-   
+  }
+  
+  #modalNavUp {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-top: 19px;
     margin-right: 70px;
-}
-
-#menuGeneralModal{
+  }
+  
+  #menuGeneralModal {
     min-height: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-.menuGenModalButton{
+  }
+  
+  .menuGenModalButton {
     height: 75px;
     border: none;
     background-color: transparent;
     position: relative;
     display: inline-block;
     padding: 20px;
-}
-
-.menuGenModalButton::before{
-    height: 35px;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background-color: transparent;
-    border-bottom: 2px solid black;
-    transform: translate(-50%, -50%);
-    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
-}
-
-.menuGenModalButton:hover::before{
-    width: 100%;
-    height: 100%;
-}
-
-.menuGenModalButton:active{
-    border-bottom: 2px solid black;
-}
-
-
-.spanMenu{
+  
+    &::before {
+      height: 35px;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background-color: transparent;
+      border-bottom: 2px solid black;
+      transform: translate(-50%, -50%);
+      transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    }
+  
+    &:hover::before {
+      width: 100%;
+      height: 100%;
+    }
+  
+    &:active {
+      border-bottom: 2px solid black;
+    }
+  }
+  
+  .spanMenu {
     position: relative;
     display: inline-block;
     padding: 20px;
-}
-
-.menuGenModalContent {
-  display: none;
-}
-
-.menuGenModalContent.active {
-  display: block;
-}
-
-.menuGenModalButton.active {
+  }
+  
+  .menuGenModalContent {
+    display: none;
+  
+    &.active {
+      display: block;
+    }
+  }
+  
+  .menuGenModalButton.active {
     border-bottom: 2px solid black;
-}
-
-#contentButtonActive{
+  }
+  
+  #contentButtonActive {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
+  }
+  
+  .botongroup {
+    border-radius: 30px;
+    background-color: #f7f7f7;
+    margin-top: 25px;
+  }
+  
