@@ -22,7 +22,7 @@ import Footer from "./footer/footer.js";
 
 // export default class Header extends React.Component
 export default class App extends React.Component {
-  render() {
+  hydrate() {
     return (
       <div className="App">
         <Header />
