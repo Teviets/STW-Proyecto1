@@ -20,7 +20,9 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: '[name].css'
         }),
-        new CssMinimizerPlugin()
+        new CssMinimizerPlugin(),
+        require('postcss-scss')(),
+        require('postcss-preset-env')()
     ],
     module: {
       rules: [
@@ -33,10 +35,18 @@ module.exports = {
         },
         {
             test: /\.scss$/,
-            use: [
-                MiniCssExtractPlugin.loader,
-                'css-loader',
-                'sass-loader'
+        use: [
+            'style-loader',
+            'css-loader',
+            {
+                loader: 'postcss-loader',
+                options: {
+                postcssOptions: {
+                    config: './postcss.config.js'
+                }
+                }
+            },
+            'sass-loader'
             ]
         },
         {

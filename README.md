@@ -1,3 +1,6 @@
+
+![Descripción de la imagen](./airbnb/src/assets/img/logo.png)
+
 # STW-Proyecto1
 Imitacion de pagina principal de Airbnb
 
