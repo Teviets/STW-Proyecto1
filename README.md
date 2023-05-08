@@ -24,7 +24,7 @@ Este es el primer proyecto de la clase de Sistemas y tecnologias Web de la unive
         <img src="./airbnb/src/assets/img/babel.png" style= "width: 30px; height: auto;"/> Babel
     </li>
     <li>
-        <img src="./airbnb/src/assets/img/mui.png" style= ""/> Material UI
+        <img src="./airbnb/src/assets/img/mui.png" style= "width: 30px; height: auto;"/> Material UI
     </li>
 <ul>
 
