@@ -1,5 +1,5 @@
 
-<img src="./airbnb/src/assets/img/logo.png" alt="Descripción de la imagen" style="max-width: 400px; height: auto;"/>
+<img src="./airbnb/src/assets/img/logo.png" alt="Descripción de la imagen" style="width: 200px; height: auto;"/>
 
 
 # STW-Proyecto1
