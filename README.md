@@ -66,16 +66,16 @@ Link de la pagina realizada: https://copiaairbnb.web.app/
     <li>[Proyecto Airbnb](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb)<br>
         Aqui se encuentran archivos webpack, babel, package.json, src, public
     </li>
-    <li>[src utilizado en el proyecto](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src)<br>
+    <li><a href="https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src">src utilizado en el proyecto</a><br>
         Se contiene archivos JS como componentes con sus estilos en scss, junto con todas las imagenes, vectores y fuentes.
     </li>
-    <li>[Componentes del proyecto](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src/components)<br>
+    <li><a href="https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src/components">Componentes del proyecto<a><br>
         Aqui se encuentran especificamente los componentes hechos en react
     </li>
-    <li>[Assets del proyecto](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src/assets)<br>
+    <li><a href="https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src/assets">Assets del proyecto</a><br>
         Se encuentran fuentes, imagenes y vectores en esta carpeta
     </li>
-    <li>[Public](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/public)<br>
+    <li><a href="https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/public">Public</a><br>
         Aqui se encuentra el archivo index.html con su manifest
     </li>
 </ul>
