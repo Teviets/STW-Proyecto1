@@ -63,7 +63,7 @@ Link de la pagina realizada: https://copiaairbnb.web.app/
 ## Estructura de proyecto
 
 <ul>
-    <li>[Proyecto Airbnb](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb)<br>
+    <li><a href="https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb">Proyecto Airbnb</a><br>
         Aqui se encuentran archivos webpack, babel, package.json, src, public
     </li>
     <li><a href="https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src">src utilizado en el proyecto</a><br>
