@@ -60,4 +60,8 @@ Link de la pagina: https://www.airbnb.com.gt/rooms/47772214?_set_bev_on_new_doma
 
 Link de la pagina realizada: https://copiaairbnb.web.app/
 
+## Estructura de proyecto
+
+[Proyecto Airbnb](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb)
+
 Hecho por Sebastian Estrada
