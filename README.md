@@ -62,6 +62,23 @@ Link de la pagina realizada: https://copiaairbnb.web.app/
 
 ## Estructura de proyecto
 
-[Proyecto Airbnb](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb)
+<ul>
+    <li>[Proyecto Airbnb](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb)<br>
+        Aqui se encuentran archivos webpack, babel, package.json, src, public
+    </li>
+    <li>[src utilizado en el proyecto](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src)<br>
+        Se contiene archivos JS como componentes con sus estilos en scss, junto con todas las imagenes, vectores y fuentes.
+    </li>
+    <li>[Componentes del proyecto](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src/components)<br>
+        Aqui se encuentran especificamente los componentes hechos en react
+    </li>
+    <li>[Assets del proyecto](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/src/assets)<br>
+        Se encuentran fuentes, imagenes y vectores en esta carpeta
+    </li>
+    <li>[Public](https://github.com/Teviets/STW-Proyecto1/tree/main/airbnb/public)<br>
+        Aqui se encuentra el archivo index.html con su manifest
+    </li>
+</ul>
+
 
 Hecho por Sebastian Estrada
