@@ -3,7 +3,7 @@
     margin-left: 118px;
     border-bottom: 1px solid #dddddd;
     margin-top: 35px;
-    height: 280px;
+    height: auto;
   }
   
   #titAnfi {
@@ -16,10 +16,12 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
   #contenedorCalAnf {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 35px;
   }
   
   #divGridCalAnf {
@@ -59,9 +61,11 @@
   
   #textoFinalAnfi {
     font-size: 12px;
+    width: 400px;
   }
   
   .textoGeneralAnfi {
     font-size: 14px;
+    width: 400px;
   }
   

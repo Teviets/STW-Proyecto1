@@ -45,6 +45,7 @@
     position: relative;
     top: 50%;
     margin-right: 10px;
+    margin-left: 10px;
   }
   
   .MuiLinearProgress-colorPrimary {
@@ -72,4 +73,11 @@
       background-color: #f7f7f7;
     }
   }
+
+@media screen and (max-width: 768px) {
+  .progressbar {
+    margin-left: 10px;
+    max-width: 100px;
+  }
+}
   

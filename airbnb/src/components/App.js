@@ -1,9 +1,9 @@
 import './App.scss';
 
 import React from 'react';
-import Header from "./header/Header.js";
+import Header from "./header/header.js";
 import Titulo from "./titulo/Titulo.js";
-import Publi from "./publi/Publi.js";
+import Publi from "./publi/publi.js";
 import Descripcion from "./descripcion/descripcion.js";
 import Card from "./Carta/Card.js";
 import Info_Gen from "./info_Gen/info_Gen.js";
