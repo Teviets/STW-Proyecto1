@@ -21,8 +21,8 @@ module.exports = {
             filename: '[name].css'
         }),
         new CssMinimizerPlugin(),
-        require('postcss-scss')(),
-        require('postcss-preset-env')()
+        /*require('postcss-scss')({}),
+        require('postcss-preset-env')({})*/
     ],
     module: {
       rules: [
@@ -35,18 +35,10 @@ module.exports = {
         },
         {
             test: /\.scss$/,
-        use: [
-            'style-loader',
-            'css-loader',
-            {
-                loader: 'postcss-loader',
-                options: {
-                postcssOptions: {
-                    config: './postcss.config.js'
-                }
-                }
-            },
-            'sass-loader'
+            use: [
+                'style-loader',
+                'css-loader',
+                'sass-loader'
             ]
         },
         {

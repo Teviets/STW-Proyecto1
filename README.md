@@ -13,18 +13,27 @@ Este es el primer proyecto de la clase de Sistemas y tecnologias Web de la unive
 <ul>
     <li>
         <img src="./airbnb/src/assets/img/react.png" style= "width: 30px; height: auto;"/> React
+        <br>Se utilizo para poder crear componentes y editarlos
     </li>
     <li>
         <img src="./airbnb/src/assets/vectores/styles.svg" style= "width: 30px; height: auto;"/> CSS, SCSS
+        <br>Se utilizo para poder personalizar componentes de react
     </li>
     <li>
         <img src="./airbnb/src/assets/img/webpack.png" style= "width: 30px; height: auto;"/> Webpack
+        <br>Me sirvio para comprimir los archivos JS, HTML y SCSS
     </li>
     <li>
         <img src="./airbnb/src/assets/img/babel.png" style= "width: 30px; height: auto;"/> Babel
+        <br>Nos permite desactualizar la sintaxis de JS y permite que la pagina se corra en versiones antiguas de navegadores
     </li>
     <li>
         <img src="./airbnb/src/assets/img/mui.png" style= "width: 30px; height: auto;"/> Material UI
+        <br>Sirve para crear de manera mas sencilla ciertos componentes
+    </li>
+    <li>
+        <img src="./airbnb/src/assets/img/firebase.png" style= "width: 30px; height: auto;"/> Firebase
+        <br>Sirve para hacer host al proyecto
     </li>
 <ul>
 
