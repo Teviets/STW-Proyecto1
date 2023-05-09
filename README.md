@@ -80,5 +80,7 @@ Link de la pagina realizada: https://copiaairbnb.web.app/
     </li>
 </ul>
 
-
+<br>
+<br>
+<br>
 Hecho por Sebastian Estrada
